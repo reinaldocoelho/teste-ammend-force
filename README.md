@@ -17,6 +17,7 @@ Teste para ammend com push forçado.
     1. Se somente a mensagem desejada foi modificada.
     2. Se não foi perdido nenhum commit após o force.
     3. Se não foi gerado problema no commit além da mensagem.
+<<<<<<< HEAD
 =======
 5. Efetuar checkout para a revisão da mensagem errada.
 6. Efetuar ammend (git commit --ammend -m "nova mensagem") para trocar a mensagem.
@@ -27,3 +28,11 @@ Teste para ammend com push forçado.
   2. Se não foi perdido nenhum commit após o force.
   3. Se não foi gerado problema no commit além da mensagem.
 >>>>>>> 2554c0c (Adicionando ponto ao final de cada linha. Modificado com Checkout/Ammend/Force.)
+=======
+
+## Acima não rolou, teste 2, usando fixup
+
+1. Levantar hash do commit
+2. No branch escrever:
+    1. (git commit --fixup=reword:<commit-hash> -m "Mensagem a ser trocada")
+>>>>>>> 39d67b4 (Nova opção.)
