@@ -13,6 +13,6 @@ Teste para ammend com push forçado.
 8. Checar historico.
 9. Efetuar Push forçado (git push --force).
 10. Checar:
-  1. Se somente a mensagem desejada foi modificada.
-  2. Se não foi perdido nenhum commit após o force.
-  3. Se não foi gerado problema no commit além da mensagem.
+    1. Se somente a mensagem desejada foi modificada.
+    2. Se não foi perdido nenhum commit após o force.
+    3. Se não foi gerado problema no commit além da mensagem.
