@@ -8,6 +8,7 @@ Teste para ammend com push forçado.
 3. Efetuar um commit com mensagem "errada".
 4. Efetuar mais um ou dois commits e efetuar push.
 5. Efetuar Push para servidor.
+<<<<<<< HEAD
 6. Efetuar checkout para a revisão da mensagem errada.
 7. Efetuar ammend (git commit --ammend -m "nova mensagem") para trocar a mensagem.
 8. Checar historico.
@@ -16,3 +17,13 @@ Teste para ammend com push forçado.
     1. Se somente a mensagem desejada foi modificada.
     2. Se não foi perdido nenhum commit após o force.
     3. Se não foi gerado problema no commit além da mensagem.
+=======
+5. Efetuar checkout para a revisão da mensagem errada.
+6. Efetuar ammend (git commit --ammend -m "nova mensagem") para trocar a mensagem.
+7. Checar historico.
+8. Efetuar Push forçado (git push --force).
+9. Checar:
+  1. Se somente a mensagem desejada foi modificada.
+  2. Se não foi perdido nenhum commit após o force.
+  3. Se não foi gerado problema no commit além da mensagem.
+>>>>>>> 2554c0c (Adicionando ponto ao final de cada linha. Modificado com Checkout/Ammend/Force.)
